@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: rgb(93, 228, 183);
+  margin: 2rem auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: rgb(102, 102, 102);
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+	outline: none;
+	border: none;
+}
+
+input::placeholder {
+	font-size: 1.05rem;
+	opacity: 0.8;
+}
+
+button {
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+	padding: 1rem;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	outline: none;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
